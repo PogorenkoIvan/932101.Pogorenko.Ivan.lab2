@@ -1,0 +1,43 @@
+.Wrapper{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.leftColumn{
+    flex-shrink: 0;
+    padding: 0 2px 0 0;
+}
+
+.Navigation{
+    background-color: bisque;
+    margin: 0;
+    width: 400px;
+    height: 100px;
+    display: table-cell; 
+    vertical-align: middle
+}
+
+.rightColumn{
+    background-color: lightgray;
+}
+
+.rightColumn p{
+    margin: 0;
+    line-height: 18px;
+}
+
+@media (max-width: 600px) {
+    .Wrapper {
+        flex-direction: column;
+    }
+
+    .rightColumn {
+        max-width: 300px;
+    }
+
+    .Navigation {
+        max-width: 150px;
+    }
+}

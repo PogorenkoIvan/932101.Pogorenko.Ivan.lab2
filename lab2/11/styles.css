@@ -1,0 +1,16 @@
+.Content{
+    width: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.Content img{
+    flex-shrink: 0;
+}
+
+.Content p{
+    flex-shrink: 2;
+    flex-grow: 2;
+}

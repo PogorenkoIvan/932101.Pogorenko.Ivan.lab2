@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Лабораторная 2</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header></header>
+        <div style="background-color: blueviolet; width: 200px; height: 100px; position: static;">Its a static block</div>
+        <div style="background-color: red; width: 200px; height: 100px; position: relative;">Its a relative block</div>
+        <div style="background-color: orange; width: 200px; height: 100px; position: relative; top: -30px; margin-left: 30px;">Its a relative block</div>
+        <div style="background-color: pink; width: 600px; height: 300px; position: relative; z-index: 2;">
+            Its a relative block
+            <div style="background-color: purple; width: 300px; height: 200px; position: absolute; margin-top: 40px; right: 0;">
+                Its an absolute div with relative parent
+            </div>
+        </div>
+        <div style="background-color: green; width: 100px; height: 100px; position: fixed; bottom: 0; right: 0; z-index: 1;"> Its a fixed div</div>
+        <footer></footer>
+    </body>
+</html>

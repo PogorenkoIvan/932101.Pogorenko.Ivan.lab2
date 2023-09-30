@@ -1,0 +1,27 @@
+.Wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftColumn{
+    flex-shrink: 0;
+    background-color: aqua;
+    padding: 0;
+}
+
+.Navigation{
+    background-color: bisque;
+    margin: 0;
+    width: 200px;
+    height: 100px;
+    display: table-cell; 
+    vertical-align: middle
+}
+
+.rightColumn{
+    background-color: lightgray;
+}
+
+.rightColumn p{
+    margin: 0;
+}

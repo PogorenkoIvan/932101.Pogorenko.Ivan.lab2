@@ -1,0 +1,16 @@
+.Wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.Content{
+    background-color: blue;
+    color: white;
+    width: 600px;
+    position: fixed;
+    margin-left: 5px;
+}
+
+.Content img{
+    float: right;
+}

@@ -1,0 +1,24 @@
+
+
+.Content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Box{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.Box p{
+    margin: 0;
+}
+
+footer{
+    background-color: bisque;
+    width: 100%;
+}

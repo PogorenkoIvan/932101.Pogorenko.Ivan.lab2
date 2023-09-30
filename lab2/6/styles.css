@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+.upperBlock{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.downBlock{
+    border: 10px solid blue;
+    width: 400px;
+    margin-top: 20px;
+    padding: 50px;
+}

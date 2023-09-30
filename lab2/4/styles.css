@@ -1,0 +1,12 @@
+.Wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px 0 5px;
+}
+
+.Content{
+    background-color: blue;
+    width: 600px;
+    padding: 0;
+    color: white;
+}
